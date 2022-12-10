@@ -1,5 +1,32 @@
-.jumbotron {
-  background-color: transparent;
+.navbar {
+  height: 50px;
+}
+
+.fluid-container {
+  display: flex;
+  height: calc(100% - 50px);
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#bio {
+  background-color: black;
+  opacity: 50%;
+}
+#bio h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: mistyrose;
+}
+
+.profile-pic {
+  background-image: url(../images/me.jpg);
+  background-size: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
 }
 
 .hero-image {
