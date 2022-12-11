@@ -1,6 +1,12 @@
 .navbar {
   height: 50px;
 }
+.navbar a {
+  color: black;
+}
+.navbar a:hover {
+  color: coral;
+}
 
 .fluid-container {
   display: flex;
@@ -34,12 +40,22 @@
 }
 
 .hero-image {
-  height: 500px;
+  min-height: 500px;
   height: calc(100vh - 25px);
   align-items: center;
   justify-content: center;
   background-image: url(../images/mushroom.jpeg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+}
+
+.card-deck .row {
+  padding: 25px;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: black;
+}
+.card-deck .row .card {
+  background-color: palevioletred;
 }/*# sourceMappingURL=style.css.map */
