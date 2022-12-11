@@ -12,11 +12,15 @@
 
 #bio {
   background-color: black;
-  opacity: 50%;
+  background-color: 0, 0, 0, 0.6;
+  color: coral;
+  padding: 20px;
+  border-radius: 90px 90px 0px 0px;
 }
 #bio h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: mistyrose;
+  color: white;
 }
 
 .profile-pic {
