@@ -1,4 +1,12 @@
+body {
+    background-color: black;
+    color: coral;
 
+    h1 {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+    }
+}
 
 .navbar {
     height: 50px;
@@ -20,15 +28,16 @@
 }
 #bio {
     background-color: black;
-    background-color: (0,0,0,0.6);
-    color: coral;
     padding: 20px;
     border-radius: 90px 90px 0px 0px;
     h1 {
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: mistyrose;
-        color: white;
+        font-size: 54px;
     }
+
+}
+#work {
+    background-color: black;
+    color: mistyrose;
 }
 .profile-pic {
 
@@ -54,14 +63,15 @@
     }
 
 
-.card-deck {
+.fluid-container {
     .row {
-    padding: 25px;
+    padding: 20px;
     justify-content: center;
     align-items: flex-start;
     background-color: black;
     .card {
         background-color: palevioletred;
+        margin: 10px;
     }
     }
 }
