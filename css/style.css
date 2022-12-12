@@ -37,6 +37,19 @@ body h1 {
 #work {
   background-color: black;
   color: mistyrose;
+  padding: 15px;
+}
+#work h1 {
+  text-decoration: underline;
+}
+
+#skills {
+  background-color: coral;
+  color: black;
+  padding: 15px;
+}
+#skills h1 {
+  text-decoration: underline;
 }
 
 .profile-pic {
