@@ -35,7 +35,7 @@ body {
     }
 
 }
-#work {
+#work, #about{
     background-color: black;
     color: mistyrose;
     padding: 15px;
@@ -51,6 +51,7 @@ body {
         text-decoration: underline;
     }
 }
+
 .profile-pic {
 
     background-image: url(../images/me.jpg);
@@ -86,4 +87,24 @@ body {
         margin: 10px;
     }
     }
+}
+
+
+button {
+    background-color: coral;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 5px;
+    border-style: solid;
+    border-color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+
+}
+button:hover {
+    color: white;
+    background-color: palevioletred;
+    box-shadow: 5px;
+    border-color: white;
+    
 }
