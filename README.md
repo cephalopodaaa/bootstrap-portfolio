@@ -1,0 +1,2 @@
+# my-portfolio
+Here in this project I have used bootstrap to create a portfolio of my previous work. I will use this site to update my progress on my web development journey. The Skills that I develop during the creation of these projects have also been listed below, an other area I will continue to add to as I progress. Finally at the bottom of the document, An about and contact me section can be see to allow potential clients and employers to contact me.
